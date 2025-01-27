@@ -1,1 +1,1 @@
-<video width="630" height="300" src="https://www.loom.com/share/b97e29a94ec24065a341a6eee3fa8c80?sid=ed0490af-344c-43ce-87a3-9a54ec9f6a85"></video>
+[![Watch the video](https://github.com/AdnanAzem/DI-Bootcamp-Stage1/blob/main/Final-Project/images/hero.jpg)](https://github.com/AdnanAzem/DI-Bootcamp-Stage1/blob/main/Final-Project/video.mkv) 
