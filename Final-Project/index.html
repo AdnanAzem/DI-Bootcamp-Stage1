@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tribute Page - Cristiano Ronaldo</title>
+</head>
+<body>
+
+    <header>
+        
+        <nav class="navigation">
+            <img  src="https://i.pinimg.com/originals/18/29/97/1829977cae39d27e6624cd6035c48cd8.png" alt="cr7 logo" width="30px">
+            <div>
+                <a href="#home" class="links">Home</a>
+                <a href="#biography" class="links">Biography</a>
+                <a href="#career" class="links">Career</a>
+                <a href="#awards" class="links">Awards</a>
+                <a href="#info" class="links">More Info</a>
+            </div>
+
+        </nav>
+        <span class="openbtn" onclick="openNav()">&#9776; </span>
+        <nav id="myNav" class="overlay">
+            <a href="javascript:;" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="#home" onclick="closeNav()">Home</a>
+                <a href="#biography" onclick="closeNav()">Biography</a>
+                <a href="#career" onclick="closeNav()">Career</a>
+                <a href="#awards" onclick="closeNav()">Awards</a>
+                <a href="#info" onclick="closeNav()">More Info</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- main information -->
+    <main>
+        <!-- Hero image -->
+        <section class="hero-img">
+            <div class="hero-text">
+                <h1 class="title">Cristiano Ronaldo</h1>
+                <p class="img-caption">
+                    Cristiano Ronaldo is a Portuguese professional footballer who plays as a forward
+                </p>
+            </div>
+
+        </section>
+
+        <!-- Biography information -->
+			<section id="biography">
+				<h2>Biography</h2>
+				<div class="tribute-info">
+					<img
+						src="/images/cr7-img.jpg"
+						alt="Cristiano Ronaldo image"
+					/>
+					<p>
+                        Cristiano Ronaldo (born February 5, 1985) is a Portuguese footballer widely regarded as one of the greatest in history. Known for his athleticism and goal-scoring, he has won five Ballon d'Ors and set numerous records. Starting at Sporting CP, Ronaldo rose to fame with Manchester United, achieving Champions League and Premier League titles. He became Real Madrid's all-time top scorer, winning four Champions Leagues, before joining Juventus and later Al-Nassr. With Portugal, he won Euro 2016 and the Nations League. Off the pitch, Ronaldo is a global icon, philanthropist, and one of the most-followed figures worldwide.
+						<a
+							id="tribute-img"
+							href="https://en.wikipedia.org/wiki/Cristiano_Ronaldo"
+							title="Cristiano Ronaldo Biography"
+							target="_blank"
+							>More about Cristiano Ronaldo Biography...</a
+						>
+					</p>
+				</div>
+			</section>
+
+            <!-- Career information -->
+			<section id="career">
+				<h2>Clubs</h2>
+				<div class="clubs">
+					<!-- <div class="clubs-left"> -->
+						<div class="club-card">
+							<img
+								src="images/cr7-SportingCP.jpg"
+								alt="cr7 Sporting CP"
+							/>
+							<ul>
+								<h3>Sporting CP</h3>
+								<li>(2002–2003)</li>
+                                <li> Appearances: 31</li>
+								<li> Goals: 5</li>
+								<li> Assists: 6</li>
+							</ul>
+						</div>
+						<div class="club-card">
+							<img
+								src="images/cr7-ManchesterUnited1.jpg"
+								alt="cr7 ManchesterUnited"
+							/>
+							<ul>
+                                <h3>Manchester United</h3>
+								<!-- <li>Manchester United</li> -->
+								<li>(2003–2009)</li>
+                                <li> Appearances: 292</li>
+								<li> Goals: 118</li>
+								<li> Assists: 69</li>
+							</ul>
+						</div>
+						<div class="club-card">
+							<img
+								src="images/cr7-RealMadrid.jpg"
+								alt="cr7 Real Madrid"
+							/>
+							<ul>
+								<h3>Real Madrid </h3>
+								<li>(2009-2018)</li>
+                                <li> Appearances: 438</li>
+								<li> Goals: 450</li>
+								<li> Assists: 131</li>
+							</ul>
+						</div>
+						
+						
+					<!-- </div> -->
+					<!-- <div class="clubs-right"> -->
+
+						<div class="club-card">
+							<img
+								src="images/cr7-Juventus.jpg"
+								alt="cr7 Juventus"
+							/>
+							<ul>
+								<h3>Juventus</h3>
+								<li> (2018–2021) </li>
+								<li> Appearances: 134</li>
+								<li> Goals: 101</li>
+								<li> Assists: 22</li>
+							</ul>
+						</div>
+						<div class="club-card">
+							<img
+								src="images/cr7-ManchesterUnited2.webp"
+								alt="cr7 ManchesterUnited"
+							/>
+							<ul>
+								<h3>Manchester United</h3>
+								<li> (2021–2023) </li>
+                                <li> Appearances: 54</li>
+								<li> Goals: 27</li>
+								<li> Assists: 5</li>
+							</ul>
+						</div>
+						<div class="club-card">
+							<img
+								src="images/cr7-Al-Nassr.webp" alt="cr7 cr7-Al-Nassr"
+							/>
+							<ul>
+								<h3>Al-Nassr</h3>
+								<li> (2023–Present) </li>
+                                <li> Appearances: 30+</li>
+								<li> Goals: 25+</li>
+								<li> Assists: 8+</li>
+							</ul>
+						</div>
+					<!-- </div> -->
+				</div>
+			</section>
+
+            <!-- Awards information -->
+			<section id="awards">
+				<h2>Awards</h2>
+				<div class="row">
+                    <div class="award-card">
+                        <img
+                            src="https://2.bp.blogspot.com/-2-pwznbs76Q/VE9bT_U_auI/AAAAAAAABRc/QVt70R_m8Sk/s1600/qui-soulevera-le-ballon-d-or-2013_70957_wide.jpg"
+                            alt="Ballon d’Or"
+                        />
+                        <div class="award-text">
+                            <h3>Ballon d’Or</h3>
+                            <p>5 wins</p>
+                            <p>2008, 2013, 2014, 2016, 2017</p>
+                        </div>
+                    </div>
+                    <div class="award-card">
+                        <img
+                            src="https://c8.alamy.com/comp/GBCWDN/soccer-fifa-world-player-gala-2008-zurich-opera-house-the-fifa-world-GBCWDN.jpg"
+                            alt="FIFA World Player of the Year"
+                        />
+                        <div class="award-text">
+                            <h3>FIFA World Player of the Year</h3>
+                            <p>1 win</p>
+                            <p>2008</p>
+                        </div>
+                    </div>
+                    <div class="award-card">
+                        <img
+                            src="https://th.bing.com/th/id/OIP.HrDY2etlsGwc1g8KSYztugHaEK?rs=1&pid=ImgDetMain"
+                            alt="The Best FIFA Men's Player"
+                        />
+                        <div class="award-text">
+                            <h3>The Best FIFA Men's Player</h3>
+                            <p>2 wins</p>
+                            <p>2016, 2017</p>
+                        </div>
+                    </div>
+                    <div class="award-card">
+                        <img
+                            src="https://ae01.alicdn.com/kf/HTB17i4rIpXXXXaKaXXXq6xXFXXXh/Official-European-Golden-Shoe-Cristiano-Ronaldo-Soulier-d-Or-Boot-Winner-Trophy-1-1-Free-Shipping.jpg"
+                            alt="European Golden Shoe"
+                        />
+                        <div class="award-text">
+                            <h3>European Golden Shoe</h3>
+                            <p>4 wins</p>
+                            <p>2007–08, 2010–11, 2013–14, 2014–15</p>
+                        </div>
+                    </div>
+                    <div class="award-card">
+                        <img
+                            src="https://editorial.uefa.com/resources/0254-0e99da031053-dd351eb8dab6-1000/the_uefa_men_s_player_of_the_year_award_trophy.jpeg"
+                            alt="UEFA Best Player in Europe"
+                        />
+                        <div class="award-text">
+                            <h3>UEFA Best Player in Europe</h3>
+                            <p>3 wins</p>
+                            <p>2014, 2016, 2017</p>
+                        </div>
+                    </div>
+                    <div class="award-card">
+                        <img
+                            src="https://editorial.uefa.com/resources/0290-1bbc76f059ab-58cdf6516cd4-1000/uefa_champions_league_2024_25_league_phase_draw_.jpeg"
+                            alt="UEFA Champions League Top Scorer"
+                        />
+                        <div class="award-text">
+                            <h3>UEFA Champions League Top Scorer</h3>
+                            <p>7 wins</p>
+                            <p>2007–08, 2012–13, 2013–14, 2014–15, 2015–16, 2016–17, 2017–18</p>
+                        </div>
+                    </div>
+                    <div class="award-card">
+                        <img
+                            src="https://i2-prod.mirror.co.uk/incoming/article11396681.ece/ALTERNATES/s1200/The-Best-FIFA-Football-Awards-Show.jpg"
+                            alt="FIFA FIFPro World XI"
+                        />
+                        <div class="award-text">
+                            <h3>FIFA FIFPro World XI</h3>
+                            <p>14 wins</p>
+                            <p>2007–2020</p>
+                        </div>
+                    </div>
+                    <div class="award-card">
+                        <img
+                            src="https://keonidotblog.files.wordpress.com/2018/04/pich.jpg?w=825"
+                            alt="Pichichi Trophy"
+                        />
+                        <div class="award-text">
+                            <h3>Pichichi Trophy</h3>
+                            <p>3 wins</p>
+                            <p>2010–11, 2013–14, 2014–15</p>
+                        </div>
+                    </div>
+                    <div class="award-card">
+                        <img
+                            src="https://www.thesportsdb.com/images/media/honour/trophy/vtauyn1650830753.png"
+                        />
+                        <div class="award-text">
+                            <h3>Premier League Golden Boot</h3>
+                            <p>1 win</p>
+                            <p>2007–08</p>
+                        </div>
+                    </div>
+                    <div class="award-card">
+                        <img
+                            src="https://content.api.news/v3/images/bin/85c5b4df0b6fa4e19da5fad0fd97adf7"
+                            alt="Serie A Top Scorer"
+                        />
+                        <div class="award-text">
+                            <h3>Serie A Top Scorer</h3>
+                            <p>1 win</p>
+                            <p>2020–21</p>
+                        </div>
+                    </div>
+                    <div class="award-card">
+                        <img
+                            src="https://th.bing.com/th/id/OIP.Sf0syLL1vQQ1pFpFMJbMMAHaFj?rs=1&pid=ImgDetMain"
+                            alt="FIFA Club World Cup Golden Ball"
+                        />
+                        <div class="award-text">
+                            <h3>FIFA Club World Cup Golden Ball</h3>
+                            <p>2 wins</p>
+                            <p>2016, 2017</p>
+                        </div>
+                    </div>
+                    <div class="award-card">
+                        <img
+                            src="https://i2-prod.dailystar.co.uk/incoming/article19482801.ece/ALTERNATES/s1200/0_783047"
+                            alt="ESM Team of the Year"
+                        />
+                        <div class="award-text">
+                            <h3>ESM Team of the Year</h3>
+                            <p>12 wins</p>
+                            <p>2006–2008, 2010–2018</p>
+                        </div>
+                    </div>
+                    <div class="award-card">
+                        <img
+                            src="https://iffhs.com/storage/img/posts/CR7%20decade.JPG"
+                        />
+                        <div class="award-text">
+                            <h3>IFFHS World's Best Top Goal Scorer</h3>
+                            <p>4 wins</p>
+                            <p>2013, 2014, 2016, 2017</p>
+                        </div>
+                    </div>
+                    <div class="award-card">
+                        <img
+                            src="https://www.iffhs.com/storage/img/posts/4-6.jpg"
+                            alt="IFFHS World's Best Playmaker"
+                        />
+                        <div class="award-text">
+                            <h3>IFFHS World's Best Playmaker</h3>
+                            <p>1 win</p>
+                            <p>2014</p>
+                        </div>
+                    </div>
+                    <div class="award-card">
+                        <img
+                            src="https://www.globesoccer.com/wp-content/uploads/2019/09/globesoccer-trophy.png"
+                            alt="Globe Soccer Awards"
+                        />
+                        <div class="award-text">
+                            <h3>Globe Soccer Awards</h3>
+                            <p>Multiple wins</p>
+                            <p>Best Player of the Century (2020), Best Men's Player (2021)</p>
+                        </div>
+                    </div>
+				</div>
+			</section>
+            <!-- More information in external links -->
+			<section id="info">
+				<h2>More information</h2>
+				<div class="content-logos">
+					<div class="logo">
+						<a
+							id="tribute-link"
+							href="https://en.wikipedia.org/wiki/Cristiano_Ronaldo"
+							title="Cristiano Ronaldo Biography"
+							target="_blank"
+							><img
+								src="https://img.icons8.com/windows/40/000000/wikipedia.png"
+								alt="wikipedia logo"
+						/></a>
+					</div>
+					<div class="logo">
+						<a
+							href="https://www.instagram.com/cristiano/"
+							title="Cristiano Ronaldo Instagram"
+							target="_blank"
+							><img
+								src="https://img.icons8.com/nolan/40/000000/instagram-new.png"
+								alt="instagram logo"
+						/></a>
+					</div>
+					<div class="logo">
+						<a
+							href="https://www.youtube.com/@cristiano"
+							title="Cristiano Ronaldo YouTube"
+                            target="_blank"
+							><img
+								src="https://img.icons8.com/color/40/000000/youtube.png"
+								alt="imdb logo"
+						/></a>
+					</div>
+		
+				</div>
+			</section>
+    </main>
+
+
+
+    <footer>
+        <p>
+            &copy; 2025 Adnan Azem &bull;
+        </p>
+    </footer>
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+    
+</body>
+</html>
