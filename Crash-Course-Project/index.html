@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Challenge || Materialize CSS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Materialize CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+    <div class="navbar-fixed">
+        <nav class="nav-wrapper pink lighten-1">
+            <div class="container">
+                <a href="#" class="brand-logo">Sweet Delights</a>
+                <a href="#" class="sidenav-trigger" data-target="mobile-nav">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+  <!-- Mobile Side Navigation -->
+  <ul class="sidenav" id="mobile-nav">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <!-- Hero Section -->
+  <section id="home" class="section scrollspy">
+    <div class="container hero-img">
+      <div class="row">
+        <div class=" col s12 m6">
+            <!-- <img src="https://images.pexels.com/photos/1775035/pexels-photo-1775035.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Bakery" class="responsive-img"> -->
+          </div>
+        <div class="col s12 m6">
+          <h1>Welcome to Sweet Delights</h1>
+          <p class="flow-text">Freshly baked goods made with love and care.</p>
+          <a href="#menu" class="btn pink lighten-1">Explore Our Menu</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+<!-- Menu Section -->
+<section id="menu" class="section scrollspy pink lighten-5">
+    <div class="container">
+      <h2 class="center-align">Our Menu</h2>
+      <div class="row">
+        <!-- Card 1: Cakes -->
+        <div class="col s12 m6 l4">
+          <div class="card hoverable">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img src="https://images.pexels.com/photos/140831/pexels-photo-140831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Cake" class="activator">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">
+                Cakes
+                <i class="material-icons right">more_vert</i>
+              </span>
+              <p>Delicious cakes for every occasion.</p>
+              <div class="card-action">
+                <a href="#contact" class="btn pink lighten-1 waves-effect waves-light">Order Now</a>
+              </div>
+            </div>
+            <!-- Card Reveal -->
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">
+                Cakes
+                <i class="material-icons right">close</i>
+              </span>
+              <p>Our cakes are made with the finest ingredients, perfect for birthdays, weddings, and celebrations. Choose from chocolate, vanilla, red velvet, and more!</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Card 2: Pastries -->
+        <div class="col s12 m6 l4">
+          <div class="card hoverable">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img src="https://images.pexels.com/photos/267308/pexels-photo-267308.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Pastry" class="activator">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">
+                Pastries
+                <i class="material-icons right">more_vert</i>
+              </span>
+              <p>Flaky and buttery pastries.</p>
+              <div class="card-action">
+                <a href="#contact" class="btn pink lighten-1 waves-effect waves-light">Order Now</a>
+              </div>
+            </div>
+            <!-- Card Reveal -->
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">
+                Pastries
+                <i class="material-icons right">close</i>
+              </span>
+              <p>Our pastries are made with the finest ingredients, ensuring a perfect balance of flakiness and flavor. Try our croissants, danishes, and more!</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Card 3: Breads -->
+        <div class="col s12 m6 l4">
+          <div class="card hoverable">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img src="https://images.pexels.com/photos/14565951/pexels-photo-14565951.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Bread" class="activator">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">
+                Breads
+                <i class="material-icons right">more_vert</i>
+              </span>
+              <p>Freshly baked bread daily.</p>
+              <div class="card-action">
+                <a href="#contact" class="btn pink lighten-1 waves-effect waves-light">Order Now</a>
+              </div>
+            </div>
+            <!-- Card Reveal -->
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">
+                Breads
+                <i class="material-icons right">close</i>
+              </span>
+              <p>Our bread is baked fresh every day using traditional methods. Choose from sourdough, whole wheat, baguettes, and more!</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Card 4: Cupcakes -->
+        <div class="col s12 m6 l4">
+          <div class="card hoverable">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img src="https://images.pexels.com/photos/1028704/pexels-photo-1028704.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Cupcake" class="activator">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">
+                Cupcakes
+                <i class="material-icons right">more_vert</i>
+              </span>
+              <p>Sweet and delightful cupcakes.</p>
+              <div class="card-action">
+                <a href="#contact" class="btn pink lighten-1 waves-effect waves-light">Order Now</a>
+              </div>
+            </div>
+            <!-- Card Reveal -->
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">
+                Cupcakes
+                <i class="material-icons right">close</i>
+              </span>
+              <p>Our cupcakes are perfect for any occasion. Choose from a variety of flavors like vanilla, chocolate, and red velvet, topped with creamy frosting.</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Card 5: Cookies -->
+        <div class="col s12 m6 l4">
+          <div class="card hoverable">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img src="https://images.pexels.com/photos/230325/pexels-photo-230325.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Cookies" class="activator">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">
+                Cookies
+                <i class="material-icons right">more_vert</i>
+              </span>
+              <p>Crunchy and chewy cookies.</p>
+              <div class="card-action">
+                <a href="#contact" class="btn pink lighten-1 waves-effect waves-light">Order Now</a>
+              </div>
+            </div>
+            <!-- Card Reveal -->
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">
+                Cookies
+                <i class="material-icons right">close</i>
+              </span>
+              <p>Our cookies are baked to perfection, offering a mix of crunchy and chewy textures. Try our chocolate chip, oatmeal, and sugar cookies!</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Card 6: Desserts -->
+        <div class="col s12 m6 l4">
+          <div class="card hoverable">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img src="https://images.pexels.com/photos/8027652/pexels-photo-8027652.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Desserts" class="activator">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">
+                Desserts
+                <i class="material-icons right">more_vert</i>
+              </span>
+              <p>Indulgent and sweet desserts.</p>
+              <div class="card-action">
+                <a href="#contact" class="btn pink lighten-1 waves-effect waves-light">Order Now</a>
+              </div>
+            </div>
+            <!-- Card Reveal -->
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">
+                Desserts
+                <i class="material-icons right">close</i>
+              </span>
+              <p>Our desserts are the perfect way to end any meal. Choose from tiramisu, cheesecake, brownies, and more!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- About Section -->
+<section id="about" class="section scrollspy">
+    <div class="container">
+      <h2 class="center-align">About Us</h2>
+      <div class="row">
+        <div class="col s12 m6 align-center">
+          <div class="about-image">
+            <img src="https://images.pexels.com/photos/230743/pexels-photo-230743.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="About Us" class="responsive-img z-depth-2">
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="about-content">
+            <h3 class="pink-text text-lighten-1">Our Story</h3>
+            <p class="flow-text">
+              At <strong>Sweet Delights</strong>, we believe in using the finest ingredients to create mouth-watering baked goods. Our journey began in a small kitchen with a passion for baking and a dream to share our love for desserts with the world.
+            </p>
+            <p class="flow-text">
+              Today, we are proud to serve our community with a wide range of cakes, pastries, breads, and more. Every item is crafted with care, ensuring a delightful experience for our customers.
+            </p>
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <i class="material-icons pink-text text-lighten-1">local_dining</i>
+                <h5>Fresh Ingredients</h5>
+                <p>We use only the freshest and highest-quality ingredients in all our products.</p>
+              </div>
+              <div class="highlight-item">
+                <i class="material-icons pink-text text-lighten-1">favorite</i>
+                <h5>Made with Love</h5>
+                <p>Every item is baked with love and care, just like at home.</p>
+              </div>
+              <div class="highlight-item">
+                <i class="material-icons pink-text text-lighten-1">group</i>
+                <h5>Community Focused</h5>
+                <p>We are proud to be a part of our local community and support local initiatives.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section scrollspy pink lighten-5">
+    <div class="container">
+      <h2 class="center-align">Contact Us</h2>
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s12 m6">
+              <input id="name" type="text" class="validate">
+              <label for="name">Name</label>
+            </div>
+            <div class="input-field col s12 m6">
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <textarea id="message" class="materialize-textarea"></textarea>
+              <label for="message">Message</label>
+            </div>
+          </div>
+          <button class="btn pink lighten-1" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="page-footer pink lighten-1">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <h5>Sweet Delights</h5>
+          <p>Freshly baked goods made with love.</p>
+        </div>
+        <div class="col s12 m4 offset-m2">
+          <h5>Links</h5>
+          <ul class="footer-list">
+            <li><a href="#home"><i class="material-icons text-lighten-1">home</i>Home</a></li>
+            <li><a href="#menu"><i class="material-icons text-lighten-1">menu</i>Menu</a></li>
+            <li><a href="#about"><i class="material-icons text-lighten-1">store</i>About Us</a></li>
+            <li><a href="#contact"><i class="material-icons text-lighten-1">textsms</i>Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2025 Sweet Delights - Adnan Azem
+      </div>
+    </div>
+  </footer>
+
+  <!-- Materialize JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!-- Custom JavaScript -->
+  <script src="scripts.js"></script>
+  <script>
+    // Initialize Materialize components
+    document.addEventListener('DOMContentLoaded', function() {
+      M.Sidenav.init(document.querySelectorAll('.sidenav'), {});
+      M.ScrollSpy.init(document.querySelectorAll('.scrollspy'), {});
+    });
+  </script>
+</body>
+</html>

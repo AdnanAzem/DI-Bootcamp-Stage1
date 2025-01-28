@@ -1,0 +1,183 @@
+/* Custom Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+/* Navbar Section Styling */
+nav {
+padding: 0 20px;
+
+}
+
+.right{
+  position: absolute;
+  right: 20px;
+  font-size: 2rem;
+}
+
+.brand-logo{
+  position: absolute;
+  left: 30px;
+}
+
+ /* Home Section Styling */
+#home {
+  background-image: url("hero-img.webp");
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Menu Section Styling */
+.section {
+padding: 60px 0;
+}
+
+.card .card-image img {
+height: 200px;
+object-fit: cover;
+}
+
+
+#menu {
+  padding: 60px 0;
+}
+
+#menu h2 {
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  
+}
+
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.card.hoverable:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-image img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.card-action {
+  padding: 10px 20px;
+  border-top: 1px solid #eee;
+}
+
+.card-reveal {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.card-reveal .card-title {
+  margin-bottom: 15px;
+}
+
+.btn {
+  margin-top: 10px;
+  width: 100%;
+}
+
+/* About Section Styling */
+#about {
+  padding: 60px 0;
+  background-color: #f9f9f9;
+}
+
+#about h2 {
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.about-image img {
+
+  margin-top: 100px;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-image img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.about-content h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+.about-highlights {
+  margin-top: 30px;
+}
+
+.highlight-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.highlight-item i {
+  font-size: 2.5rem;
+  margin-right: 10px;
+}
+
+.highlight-item h5 {
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+  color: #333;
+  margin-right: 5px;
+}
+
+.highlight-item p {
+  font-size: 1rem;
+  color: #666;
+}
+
+  /* Footer Section Styling */
+footer {
+  padding-top: 20px;
+  }
+  
+  .footer-list li a{
+    color: #fff;
+    font-size: 1.2em;
+    align-items: center;
+  }
+  
+  .footer-list li a i{
+    padding-right: 10px;
+    align-items: center;
+    font-size: 1.5em;
+  }
+  
